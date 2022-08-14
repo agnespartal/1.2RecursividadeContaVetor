@@ -9,7 +9,7 @@ public class VetorNegativo {
 	public int vetNegativo(int [] vetor, int tamanho) {
 		
 		int cont = 0;
-		
+		//Condiçao de parada 
 		if (tamanho == 0) {
 			return 0;
 		} else {
